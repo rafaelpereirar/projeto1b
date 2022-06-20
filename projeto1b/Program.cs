@@ -10,6 +10,14 @@ namespace projeto1b
     {
         static void Main(string[] args)
         {
+            escolhi aluno;
+            aluno = new escolhi();
+            escolhi professor = new escolhi();
+            aluno.nome = "rafael";
+            professor.nome = "prof.jefersinho";
+            Console.WriteLine("aluno:" + aluno.nome);
+            Console.WriteLine("professor:" + professor.nome);
+            Console.ReadKey();
         }
     }
 }
